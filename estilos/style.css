@@ -27,7 +27,7 @@
 }
 @media (max-width: 1000px) {
     body header h1 {
-        font-size: 40px; /* Diminui o tamanho da fonte em telas menores */
+        font-size: 50px; /* Diminui o tamanho da fonte em telas menores */
     }
 }
 
