@@ -22,7 +22,7 @@
 
 @media (max-width: 480px) {
     img{
-        width: 50%; /* Ajusta a largura para 60% do contêiner em telas menores */
+        width: 40%; /* Ajusta a largura para 60% do contêiner em telas menores */
     }
 }
 @media (max-width: 1000px) {
@@ -49,13 +49,13 @@
 }
 @media (max-width: 768px) {
     nav a{
-        font-size: 15px; /* Diminui o tamanho da fonte em telas menores */
+        font-size: 20px; /* Diminui o tamanho da fonte em telas menores */
     }
 }
 
 @media (max-width: 480px) {
     nav a{
-        font-size: 12px; /* Tamanho ainda menor para telas muito pequenas */
+        font-size: 15px; /* Tamanho ainda menor para telas muito pequenas */
     }
     
 }@media (max-width: 1300px) {
