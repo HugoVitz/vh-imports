@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+@media (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul img {
+        margin-top: 10px; /* Espaço adicional entre os itens */
+    }
+}
+@media (max-width: 768px) {
+    img {
+        width: 50%; /* Ajusta a largura para 80% do contêiner */
+    }
+}
+
+@media (max-width: 480px) {
+    img{
+        width: 30%; /* Ajusta a largura para 60% do contêiner em telas menores */
+    }
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+   body{
+     margin: 0; 
+    height: 100vh; 
+    background-image: linear-gradient(to right, black, #282779, #1d1ba6);
+    color:white;
+    
+}
+   
+header { padding: 20px;
+    border-bottom: 5px solid #ccc;
+    background-color: black;
+    color:white;
+    max-width: 100%;
+   
+}
+
+header>h1{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 50px;
+
+    
+}
+
+header>p{
+        font-size: 35px;
+        text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.808);
+        text-align: center;
+        margin-bottom: 30px;
+}
+
+header>img{
+    max-width: 150px;
+    padding: 20px;
+    
+}
+
+.imagemdireita{
+    float: right;
+    
+}
+
+.imagemesquerda{
+    float: left;
+}
+
+nav{
+    padding: 5px 5px;
+    background-color: black;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.397);
+    min-width: 320px;
+}
+nav > ul{
+    
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    padding: 15px;
+    display: inline-flex;
+    align-items: center; 
+    
+}
+
+nav a{
+    color:#ffffff;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+nav a:hover{
+    color:white;
+    background-color: #0098B2;
+    text-decoration: underline;
+}
+
+nav > ul img{
+    
+        max-width: 100%; /* Torna a imagem responsiva */
+        height: auto;
+    
+    
+}
+
+main{
+    min-height: 100%;
+    min-width: 300px;
+    max-width: 1500px; 
+    margin: auto;
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.548);
+    padding: 20px ;
+    object-fit: contain;
+}
+
+main p{
+    color: white;
+}
+
+main img{
+    max-height: 400px; 
+    height: auto; 
+    margin:auto;
+    
+    
+    
+}
+
+main h1{
+    border-radius: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    margin-bottom: 30px;
+    width: 400px;
+    
+}
+
+
+
+.tudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Define 2 colunas de tamanho igual */
+    gap: 10px; /* Espaço entre as fotos */
+    
+}
+
+.kit-infantil{
+    margin: 10px 10px 10px 100px;
+    background-color: black;
+    
+    padding: 10px;
+
+    text-align: center;
+    justify-items: center;
+    
+}
+
+.kit-infantil>img{
+    border-radius: 500px;
+}
+
+.versao-jogador{
+    margin: 10px 100px 10px 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    justify-items: center;
+    
+}
+
+.versao-jogador>img{
+    border-radius: 500px;
+}
+
+.kit-treino{
+    margin: 10px 100px 10px 100px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    justify-items: center;
+    
+}
+
+.kit-treino>img{
+    border-radius: 500px;
+}
+
+.camisas-retro{
+    margin: 10px 10px 10px 100px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    justify-items: center;
+    
+}
+
+.camisas-retro>img{
+    border-radius: 500px;
+}
+.corta-vento{
+    margin: 10px 100px 10px 100px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    justify-items: center;
+    
+}
+
+.corta-vento>img{
+    border-radius: 500px;
+}
+
+.manga-longa{
+    margin: 10px 10px 10px 100px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    justify-items: center;
+
+}
+
+.manga-longa>img{
+    border-radius: 500px;
+}
+
+.centro{
+    display: grid;
+    place-items: center; /* Centraliza horizontalmente e verticalmente */
+}
+
+.centro img{
+    min-width: 50px;
+    max-width: 150px; 
+
+}
+
+.alinhado{
+    display: inline-flex;
+    align-items: center; 
+    border: 2px dotted #0098B2;
+    outline: 2px solid white;
+    outline-offset: 5px;
+    padding: 20px 15px 20px 5px;
+    margin: auto;
+}
+
+.alinhado > p{
+    width: 130px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
