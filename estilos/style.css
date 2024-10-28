@@ -334,7 +334,10 @@ main h2{
     max-width: 150px; 
 
 }
-
+.centro .imagem img{
+    min-width: 50px;
+    max-width: 300px; 
+}
 .alinhado{
     display: inline-flex;
     align-items: center; 
