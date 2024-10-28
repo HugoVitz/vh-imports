@@ -330,9 +330,7 @@ main h2{
     min-width: 50px;
     max-width: 300px; 
 }
-.centro h1{
-    background-image: linear-gradient(to right, black, #282779, #1d1ba6);
-}
+
 .alinhado{
     display: inline-flex;
     align-items: center; 
