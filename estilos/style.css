@@ -225,7 +225,10 @@ main h2{
     
 }
 
-
+.tudo{
+    display: grid;
+    place-items: center; /* Centraliza horizontalmente e verticalmente */
+}
 .tudo h1{
     background-image: linear-gradient(to right, black, #282779, #1d1ba6);
 }
@@ -244,9 +247,8 @@ main h2{
 .kit-infantil h1{
     display: flex;
     flex-wrap: wrap; /* Permite que os itens quebrem linha conforme o espaço */
-
-    text-align: center;
-    justify-items: center;
+    width: 170px;
+    
 }
 .versao-jogador{
     
@@ -304,10 +306,10 @@ main h2{
 }
 
 .manga-longa{
-    margin: 10px 10px 10px 10px;
+    margin: 10px 0px 100px 10px;
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 10px 0px;
     text-align: center;
     justify-items: center;
 
