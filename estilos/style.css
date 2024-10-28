@@ -332,6 +332,8 @@ main h2{
 .centro img{
     min-width: 50px;
     max-width: 150px; 
+    margin-bottom: 40px;
+    margin-top: 20px;
 
 }
 
