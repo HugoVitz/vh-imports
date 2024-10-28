@@ -225,16 +225,7 @@ main h2{
     
 }
 
-.tudo{
-    display: grid;
-    place-items: center; /* Centraliza horizontalmente e verticalmente */
-    
 
-}
-.tudo h1{
-    background-image: linear-gradient(to right, black, #282779, #1d1ba6);
-    
-}
 .kit-infantil{
     margin: 10px 10px 10px 10px;
     background-color: black;
@@ -334,11 +325,15 @@ main h2{
     max-width: 150px; 
     margin-bottom: 40px;
     margin-top: 20px;
-
+}
+.centro .imagem img{
+    min-width: 50px;
+    max-width: 200px; 
 }
 
 .centro h1{
     width:auto;
+    background-image: linear-gradient(to right, black, #282779, #1d1ba6);
 }
 .alinhado{
     display: inline-flex;
