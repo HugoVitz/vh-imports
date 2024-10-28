@@ -326,7 +326,7 @@ main h2{
 
 }
 .centro > .imagem img{
-    margin-bottom: 10;
+    margin-bottom: 35px;
     min-width: 50px;
     max-width: 300px; 
 }
