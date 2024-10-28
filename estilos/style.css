@@ -485,10 +485,3 @@ footer p {
     
     
 }
-aside .centro li{
-    position: sticky;
-      top: 0;
-      left: 0;
-    display: grid;
-    place-items: center; /* Centraliza horizontalmente e verticalmente */
-}
