@@ -337,6 +337,9 @@ main h2{
 
 }
 
+.centro h1{
+    width:auto;
+}
 .alinhado{
     display: inline-flex;
     align-items: center; 
