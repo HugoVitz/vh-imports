@@ -405,5 +405,14 @@ main .centro > h1{
     
 }
 
+aside{
+    color:white;
+    padding:8px;
+    background-color: black;
+    margin-top: 8px;
+    
+}
 
-
+i{
+    padding-right: 10px;
+}
