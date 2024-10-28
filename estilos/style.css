@@ -73,8 +73,12 @@
     text-align: center;
     }
 }
-
-
+@media (max-width: 768px) {
+    aside ul {
+      flex-direction: column; /* Alinha as listas uma embaixo da outra */
+      align-items: center; /* Centraliza as listas */
+    }
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -85,6 +89,7 @@ body{
     background-image: linear-gradient(to right, black, #282779, #1d1ba6);
     color:white;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
    
@@ -220,13 +225,12 @@ main h2{
 
 
 .kit-infantil{
-    margin: 10px 10px 10px 10px;
-    background-color: black;
-    padding: 10px;
+    margin: 10px 0px 10px 10px;
+    color: white;
+    padding: 10px 0px;
     text-align: center;
-    align-items: center;
     justify-items: center;
-    align-content: center;
+
 }
 
 .kit-infantil>img{
@@ -241,13 +245,12 @@ main h2{
     
 }
 .versao-jogador{
-    
-    background-color: black;
+    margin: 10px 0px 10px 10px;
     color: white;
-    
+    padding: 10px 0px;
     text-align: center;
     justify-items: center;
-    
+
 }
 
 .versao-jogador>img{
@@ -255,10 +258,9 @@ main h2{
 }
 
 .kit-treino{
-    margin: 10px 10px 10px 10px;
-    background-color: black;
+    margin: 10px 0px 10px 10px;
     color: white;
-    padding: 10px;
+    padding: 10px 0px;
     text-align: center;
     justify-items: center;
     
@@ -269,12 +271,12 @@ main h2{
 }
 
 .camisas-retro{
-    margin: 10px 10px 10px 10px;
-    background-color: black;
+    margin: 10px 0px 10px 10px;
     color: white;
-    padding: 10px;
+    padding: 10px 0px;
     text-align: center;
     justify-items: center;
+    
     
 }
 
@@ -282,12 +284,12 @@ main h2{
     border-radius: 500px;
 }
 .corta-vento{
-    margin: 10px 10px 10px 10px;
-    background-color: black;
+    margin: 10px 0px 10px 10px;
     color: white;
-    padding: 10px;
+    padding: 10px 0px;
     text-align: center;
     justify-items: center;
+    
     
 }
 
@@ -297,11 +299,11 @@ main h2{
 
 .manga-longa{
     margin: 10px 0px 10px 10px;
-    background-color: black;
     color: white;
     padding: 10px 0px;
     text-align: center;
     justify-items: center;
+    
 
 }
 
@@ -409,12 +411,50 @@ main .centro > h1{
 
 aside{
     color:white;
-    padding:8px;
+    padding:8px ;
     background-color: black;
-    margin-top: 8px;
-    
+    padding-left: 20px;
+    height: 500px;
+    border-top: 10px solid #ccc;
+    line-break: normal;
+    flex-wrap: wrap;
 }
+aside h2{
+padding: 10px;
+margin-left: 10px;
+}
+aside a{
+    color:#ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside li{list-style: none;
+    padding-top: 10px;
+}
+
 
 i{
     padding-right: 10px;
 }
+.listas2{
+    display: flex;
+    
+    
+    
+}
+.listas2 li{
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens da lista quebrem */
+    
+    list-style-type: none;
+}
+.listas{
+        flex: 1;
+        max-width: 400px;
+        padding: 10px;
+        flex: 1 1 100px; /* Define o tamanho mínimo dos itens antes de quebrar */
+        padding: 10px;
+        text-align: center;
+        
+}
+
