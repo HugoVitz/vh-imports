@@ -225,26 +225,17 @@ main h2{
     
 }
 
-.tudo{
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Define 2 colunas de tamanho igual */
-    gap: 50px; /* Espaço entre as fotos */
-    display: flex;
-    flex-wrap: wrap; /* Permite que os itens quebrem linha conforme o espaço*/
-    justify-content: center;
-    
-}
+
 .tudo h1{
     background-image: linear-gradient(to right, black, #282779, #1d1ba6);
 }
 .kit-infantil{
     margin: 10px 10px 10px 10px;
     background-color: black;
-
     padding: 10px;
+    
     text-align: center;
     justify-items: center;
-    
 }
 
 .kit-infantil>img{
@@ -253,15 +244,15 @@ main h2{
 .kit-infantil h1{
     display: flex;
     flex-wrap: wrap; /* Permite que os itens quebrem linha conforme o espaço */
-   
-     
-       justify-content: center;
+
+    text-align: center;
+    justify-items: center;
 }
 .versao-jogador{
-    margin: 10px 10px 10px 10px;
+    
     background-color: black;
     color: white;
-    padding: 10px;
+    
     text-align: center;
     justify-items: center;
     
@@ -380,7 +371,7 @@ main .centro > h1{
     outline-offset: 2px;
     border-radius:  0px 0px 3px 3px ;
     margin: 3px 10px;
-    overflow-wrap: break-word;
+    
 }
     
     
@@ -402,7 +393,7 @@ main .centro > h1{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
     transition-duration: 1s;
-    
+    flex-wrap: wrap;
     
 }
 
