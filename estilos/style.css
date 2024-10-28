@@ -225,7 +225,16 @@ main h2{
     
 }
 
+.tudo{
+    display: grid;
+    place-items: center; /* Centraliza horizontalmente e verticalmente */
+    
 
+}
+.tudo h1{
+    background-image: linear-gradient(to right, black, #282779, #1d1ba6);
+    
+}
 .kit-infantil{
     margin: 10px 10px 10px 10px;
     background-color: black;
@@ -302,7 +311,7 @@ main h2{
 }
 
 .manga-longa{
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0px 100px 10px;
     background-color: black;
     color: white;
     padding: 10px 0px;
@@ -324,11 +333,6 @@ main h2{
     min-width: 50px;
     max-width: 150px; 
 
-}
-.centro > .imagem img{
-    margin-bottom: 35px;
-    min-width: 50px;
-    max-width: 300px; 
 }
 
 .alinhado{
