@@ -16,13 +16,13 @@
 
 @media (max-width: 768px) {
     img {
-        width: 70%; /* Ajusta a largura para 80% do contêiner */
+        width: 80%; /* Ajusta a largura para 80% do contêiner */
     }
 }
 
 @media (max-width: 480px) {
     img{
-        width: 40%; /* Ajusta a largura para 60% do contêiner em telas menores */
+        width: 55%; /* Ajusta a largura para 60% do contêiner em telas menores */
     }
 }
 @media (max-width: 1000px) {
