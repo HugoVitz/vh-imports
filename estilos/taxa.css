@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@media (max-width: 1300px) {
+    main .taxa h1{
+        font-size: 30px; /* Diminui o tamanho da fonte em telas menores */
+    text-align: center;
+    }
+    
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    color: white;
+    
+    margin: auto;
+    background-image: linear-gradient(to right, black, #282779, #1d1ba6);
+    padding: 50px 20px 20px 20px;
+    object-fit: contain;
+    box-sizing: border-box; /* Inclui o padding na largura total do main */
+   
+    
+}
+main h1{
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.466);
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid white;
+    outline: 2px  solid white;
+    outline-offset: 5px ;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+main p{
+    padding: 10px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 40px;
+    max-width: 600px;
+    min-width: 300px;
+    margin: auto;
+    font-size: 20px;
+   
+
+}
