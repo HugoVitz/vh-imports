@@ -239,6 +239,13 @@ aside ul{
     padding-left: 20px;
     
 }
+aside .centro li{
+    position: sticky;
+      top: 0;
+      left: 0;
+    display: grid;
+    place-items: center; /* Centraliza horizontalmente e verticalmente */
+}
 .redes ul{
     
     display: flex;
@@ -273,6 +280,7 @@ footer{
     padding: 5px;
     background-color: #ffffff;
     min-width: 300px;
+    display: block;
     
 }
 
@@ -284,13 +292,5 @@ footer p {
     font-style: oblique;
     max-width: 250px;
     margin: auto;
-    
-    
 }
-aside .centro li{
-    position: sticky;
-      top: 0;
-      left: 0;
-    display: grid;
-    place-items: center; /* Centraliza horizontalmente e verticalmente */
-}
+

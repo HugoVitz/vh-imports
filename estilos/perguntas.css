@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+main{
+    color: white;
+    
+    margin: auto;
+    background-image: linear-gradient(to right #282779, #1d1ba6);
+    padding: 50px 20px 20px 20px;
+    object-fit: contain;
+    box-sizing: border-box; /* Inclui o padding na largura total do main */
+    min-width: 300px;
+    max-width: 700px;
+    text-align: justify;
+}
+main .perguntas  h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+}
+main h2{
+color: #ccc;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+main p{
+    line-height: 30px;
+    text-indent: 30px;
+}
+main li{
+    list-style: none;
+    line-height: 25px;
+}
+main h3{
+    padding: 30px 0px;
+    font-size: 30px;
+    color: black;
+}
+
+
